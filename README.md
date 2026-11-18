@@ -21,7 +21,7 @@ Open http://127.0.0.1:4173. Rebuild after editing source files.
 - `style.css`: colors, typography, responsive layouts, and print styles.
 - `scripts/build.mjs`: semantic HTML, language routes, metadata, sitemap, and static output.
 - `assets/`: supplied portrait and project workflow illustrations.
-- `app.js`: mobile navigation and section highlighting. The page content and project details work without JavaScript; on narrow screens, scrolling reaches all sections.
+- `app.js`: section highlighting and responsive navigation. The page content and project details work without JavaScript; on narrow screens, scrolling reaches all sections.
 
 ## Deployment
 
@@ -31,7 +31,7 @@ If moving to another account or a custom domain, update `profile.origin` in `con
 
 ## Editorial scope
 
-AI projects lead the narrative. Materials research provides experimental evidence and context. Embodied intelligence is presented as an emerging research direction, without claiming completed robotics results. Project illustrations show concepts and workflows; implementation status is described separately and linked to the repositories.
+The homepage leads with published battery research, then connects it to open-source AI projects. Embodied intelligence is presented as an emerging research direction, without claiming completed robotics results. Project illustrations show concepts and workflows; implementation status is described separately and linked to the repositories.
 
 Public source links:
 
@@ -45,4 +45,10 @@ Public source links:
 
 The Nano Letters title follows the publisher’s final title. Other biographical content is selected from the owner’s supplied CV and presentation. Full private context, phone numbers, references’ contact details, and unpublished experimental slides are not part of this repository. The complete CV is available by email request.
 
-Portrait and project illustrations are from the owner’s supplied presentation; they are not a general-purpose asset library.
+Portrait and project illustrations are from the owner’s supplied materials; they are not a general-purpose asset library.
+
+## Redesign preview
+
+The revised site has a portrait-led bilingual homepage, an Energy Storage Materials spotlight, a categorized figure gallery, and selected honors checked against supplied records where available. `editorial.mjs` contains the new homepage and honors copy. `gallery.mjs` lists figure metadata and source links. The ESM graphical abstract was supplied by co-author Yu Zhao. The AEM image is Figure 1 from the open-access article (Creative Commons Attribution), extracted directly from the supplied PDF. The JMCA and Joule figures were supplied by co-author Yu Zhao.
+
+The preview ZIP includes the static `preview/` tree, plus modified source files for review. Only the source files belong in the repository; GitHub Actions generates the published site from source. The raw CV, private application materials and original photo metadata are not included.

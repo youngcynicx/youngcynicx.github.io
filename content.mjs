@@ -4,6 +4,8 @@ export const profile = {
   github: 'https://github.com/youngcynicx', origin: 'https://youngcynicx.github.io',
   publications: [
     { year: '2026', journal: 'Energy Storage Materials', title: 'Structure dependent optimization of pyrrolidinium bromide complexing agents for high energy density zinc–bromine flow batteries', authors: 'Y. Wu, Y. Zhao, et al.', doi: '10.1016/j.ensm.2026.105323', role: ['共同第一作者', 'Co-first author'] },
+    { year: '2026', journal: 'Journal of Materials Chemistry A', title: 'Carbon vs. carbon: rational host selection for Zn–I₂ cathodes', authors: 'Y. Zhang, S. Wang, G. Wang, W. Wu, Y. Zhao, et al.', doi: '10.1039/D6TA03280J', role: ['共同作者', 'Co-author'] },
+    { year: '2025', journal: 'Joule', title: 'Everything works, almost: A perspective on material evaluation in aqueous battery research', authors: 'Y. Wu, F. Gao, Y. Zhang, G. Wang, S. Wang, Y. Zhao, et al.', doi: '10.1016/j.joule.2025.102202', role: ['共同作者', 'Co-author'] },
     { year: '2025', journal: 'Advanced Energy Materials', title: 'Exploring Hybrid Electrolytes for Zn Metal Batteries', authors: 'H. Fu, S. Huang, C. Wang, J. S. Kim, Y. Zhao, et al.', doi: '10.1002/aenm.202501152', role: ['共同作者', 'Co-author'] },
     { year: '2025', journal: 'Nano Letters', title: 'General Oxygen Vacancy Engineering by Molten Zinc to Regulate Anode Redox for Durable Aqueous Zinc–Iodine Batteries', authors: 'C. Wang, H. Wang, X. Ma, T. Guo, A. Zheng, Y. Zhao, et al.', doi: '10.1021/acs.nanolett.5c00473', role: ['共同作者', 'Co-author'] },
   ]

@@ -1,0 +1,60 @@
+export const editorial = {
+ zh: {
+  nav:['论文','项目','图谱','经历'],
+  eyebrow:'个人研究主页 / RESEARCH PORTFOLIO',
+  name:'赵宇 <span>Yu Zhao</span>',
+  statement:'从电池材料到科研智能体。',
+  intro:'我在南京工业大学研究电化学储能与功能材料，也在构建面向实验室的 AI 智能体和自动化工具。我关心的是，怎样把实验中的判断、记录与操作做成可追溯、可验证的流程。',
+  cta:'看代表论文', projectCta:'探索开源项目',
+  affiliation:'南京工业大学 · 硕士研究生', visit:'新加坡国立大学 · 曾任访问学生',
+  portraitAlt:'赵宇站在露天石墙前的肖像', portraitCaption:'赵宇 / YU ZHAO',
+  researchLabel:'01 / PUBLICATIONS', researchTitle:'论文与研究',
+  researchIntro:'从锌基电池中的界面与电解液问题出发，用材料表征、电化学与全电池实验检验分子设计。',
+  esmTitle:'用溴络合剂分子结构设计高能量密度锌–溴液流电池',
+  esmSummary:'比较不同烷基链长的吡咯烷鎓溴盐，通过物性、电化学和全电池测试，把络合剂分子结构、溴管理和液流电池性能联系起来。',
+  esmCredit:'论文图文摘要 · 作者供图，已清理杂点', otherPapers:'其他代表论文',
+  aboutLabel:'02 / RESEARCH INTERESTS', projectsLabel:'03 / OPEN SOURCE',
+  galleryLabel:'04 / VISUAL INDEX', galleryTitle:'科研机制与工作流图谱',
+  galleryIntro:'把公开论文里的科学问题和开源项目的工作流程分开展示。点图看大图，点来源查原文或代码。',
+  papersGroup:'电化学与材料 · 论文机制', projectsGroup:'AI for Science · GitHub 工作流', expand:'打开大图',
+  journeyLabel:'05 / BACKGROUND', awardLabel:'SELECTED HONORS', awardTitle:'奖项与荣誉',
+  awards:[
+   ['2026','研究生国家奖学金 · 学院初审正选'],
+   ['2025','第十届江苏省科协青年会员（化学化工领域）创新创业大赛一等奖'],
+   ['2025','南京工业大学研究生学业特等奖学金'],
+   ['2025','材料科学发展大会优秀墙报奖（先进结构及功能复合材料高峰论坛）'],
+   ['2024','南京工业大学研究生新生一等奖学金'],
+   ['2023','南京工业大学本科生三等奖学金'],
+   ['2023','江苏省大学生足球比赛冠军（团队）']
+  ]
+ },
+ en: {
+  nav:['Publications','Projects','Gallery','Background'],
+  eyebrow:'RESEARCH PORTFOLIO',
+  name:'Yu Zhao',
+  statement:'From battery materials to agents for science.',
+  intro:'I study electrochemical energy storage and functional materials at Nanjing Tech University and build AI agents and automation tools for the lab. I’m interested in making experimental decisions, records, and operations easier to trace and verify.',
+  cta:'Selected publications', projectCta:'Explore open source',
+  affiliation:'Graduate researcher · Nanjing Tech University', visit:'Former visiting student · National University of Singapore',
+  portraitAlt:'Yu Zhao standing by a stone wall outdoors', portraitCaption:'YU ZHAO / PORTRAIT',
+  researchLabel:'01 / PUBLICATIONS', researchTitle:'Papers & research',
+  researchIntro:'My work connects molecular design with materials characterization, electrochemistry, and full-cell tests in zinc-based batteries.',
+  esmTitle:'Molecular design for high-energy zinc–bromine flow batteries',
+  esmSummary:'We compared pyrrolidinium bromide complexing agents with different alkyl chain lengths and used physical-property measurements, electrochemistry, and full-cell tests to connect molecular structure with bromine management and battery performance.',
+  esmCredit:'Graphical abstract · supplied by co-author Yu Zhao; cleaned for display', otherPapers:'Other selected publications',
+  aboutLabel:'02 / RESEARCH INTERESTS', projectsLabel:'03 / OPEN SOURCE',
+  galleryLabel:'04 / VISUAL INDEX', galleryTitle:'Mechanisms & workflows',
+  galleryIntro:'Research concepts from published papers and workflows from open-source projects. Open any image at full size, or follow its source link.',
+  papersGroup:'Electrochemistry & materials', projectsGroup:'AI for Science · GitHub workflows', expand:'Open full-size figure',
+  journeyLabel:'05 / BACKGROUND', awardLabel:'SELECTED HONORS', awardTitle:'Awards & honors',
+  awards:[
+   ['2026','National Scholarship for Graduate Students · Primary nominee in the school’s preliminary review'],
+   ['2025','First Prize, 10th Jiangsu Association for Science and Technology Youth Members Innovation and Entrepreneurship Competition (Chemistry and Chemical Engineering)'],
+   ['2025','Special Prize Graduate Academic Scholarship, Nanjing Tech University'],
+   ['2025','Outstanding Poster Award, Materials Science Development Conference (Forum on Advanced Structural and Functional Composites)'],
+   ['2024','First-Class Incoming Graduate Scholarship, Nanjing Tech University'],
+   ['2023','Third-Class Undergraduate Scholarship, Nanjing Tech University'],
+   ['2023','Jiangsu University Football Competition champion (team)']
+  ]
+ }
+}
